@@ -19,6 +19,8 @@ Pre-requisite
 **Disable selinux in all the nodes**
 
   [root@master ~]# setenforce  0
+  
+  
   [root@master ~]# sed -i 's/SELINUX=enforcing/SELINUX=disabled/'  /etc/selinux/config
   
 **Enable the kernel bridge for every system**
