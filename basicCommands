@@ -1,0 +1,35 @@
+ minikube status
+ 1840  minikube start
+ 1841  kubectl get pods
+ 1842  cat dippod1
+ 1843  ls
+ 1844  cd k8ssummer2020
+ 1845  ls
+ 1846  cat dippod1.yml
+ 1847  kubectl apply -f dippod1.yml
+ 1848  cat dippod1.yml
+ 1849  kubectl get pods
+ 1850  kubectl delete po dippod1
+ 1851  kubectl get po
+ 1852  kubectl create -f dippod1.yml
+ 1853  kubectl get po
+ 1854  kubectl get po -w
+ 1855  kubectl get po
+ 1856  kubectl get po -o wide
+ 1857  docker ps
+ 1858  docker inspect dbbd658766b5 
+ 1859  clear
+ 1860  ls
+ 1861  vim dippod1.yml
+ 1862  kubectl delete po dippod1
+ 1863  kubectl get po
+ 1864  kubectl create -f dippod1.yml
+ 1865  kubectl get po -w
+ 1866  kubectl get po
+ 1867  cat dippod1.yml
+ 1868  kubectl describe dippod1
+ 1869  kubectl describe pods dippod1
+ 1870  kubectl describe pods dippod1 | more
+ 1871  clear
+ 1872  kubectl explain pod
+ 1873  ls
