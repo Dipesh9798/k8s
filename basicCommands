@@ -33,3 +33,7 @@
  1871  clear
  1872  kubectl explain pod
  1873  ls
+ kubectl explain pods.spec | less
+DESKTOP_DIPESH:-kubectl explain pods.kind | less
+DESKTOP_DIPESH:-kubectl explain pods.apiVersion | less
+
